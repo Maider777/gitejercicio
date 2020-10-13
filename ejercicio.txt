@@ -1,0 +1,44 @@
+Aqui se explican los comandos que se utilizan en Git:
+
+Git version: Este codigo se utiliza para ver la version que tenemos instalada en el ordenador.
+
+Git init: Este sirve para empezar a trabajar con Git creando un archivo.
+
+Git add: Este codigo se utiliza para añadir añadir un archivo al repositorio de Git.
+
+Git add .: Este codigo es similar al anterior, aunque con este se añaden todos los archivos, sin especificar.
+
+Git commit -m: Con este codigo commiteamos el archivo. Despues de introducir el codigo, podemos agregar un mensaje
+ entre comillas para avisar de lo que se esta haciendo.
+
+Git status: Con este codigo podemos ver las modifcaciones que se estan haciendo dentro del repositorio.
+
+Git status -s: Es similar al codigo anterior, pero este te muestra lo modificado de una manera mas resumida.
+
+Git push: Este codigo sirve para subir el repositorio a Github.
+
+Git pull: Este codigo es lo contrario al anterior, es decir, en vez de subir el repositorio, lo bajariamos.
+
+Git branch -M main: Este codigo significa la rama que se va a utilizar. Sirve para borrar, crear o utilizar una rama.
+
+Git remote: Con este codigo, se utiliza para conectar Git con el repositorio remoto.
+
+Git remote add origin: Con este codigo, se quiere avisar de que el repositorio que queramos subir, va a ser subido. 
+Es decir, digamos que es como una advertencia de lo que se va a hacer.
+
+Git push -u origin master: Con este codigo, ya decimos que repositorio va a ser subido, por lo tanto, una carpeta va a ser 
+subida a Github.
+
+Git Help: Este codigo sirve en el caso de que necesitemos ayuda, Git nos podria echar una modifcaciones.
+
+Git log: Se utiliza para ver todos los commits que hemos realizado anteriormente. 
+
+Git log --oneline: Muestra en una linea todos los commits que se han realizado.
+
+Git reset: Si despues del codigo añadimos el nombre del archivo, querremos viajar al commit especifico y hacer los cambios que queramos.
+
+Git reset --hard: Sin haber hecho un commit anteriormente y queremos destruir los cambios, este codigo es el que utilizariamos.
+
+Git checkout: Si anteriormente no hicimos un commit pero queremos revertir los cambios, tendriamos que utilizar este codigo.
+
+Git clone: Se utiliza para poder clonar un repositorio.
